@@ -34,7 +34,7 @@ const Posts = () => {
         <button className="btn" onClick={() => {setItemsPerPage(10), setCurrentPage(0);}}>10 pr. side</button>
          <button className="btn" onClick={() => {setItemsPerPage(20), setCurrentPage(0);}}>20 pr. side</button>
           <button className="btn" onClick={() => {setItemsPerPage(100), setCurrentPage(0);}}>100 pr. side</button>
-          */}
+          */} 
       </div>
 
       {data && (

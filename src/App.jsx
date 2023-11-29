@@ -18,6 +18,7 @@ import News from "./views/News";
 import Posts from "./jsonplaceholder/Posts";
 import Post from "./jsonplaceholder/Post";
 import Photos from "./jsonplaceholder/Photos";
+import Todos from "./jsonplaceholder/Todos";
 
 function App() {
   // ROUTER PROVIDER
@@ -31,9 +32,10 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="posts" element={<Posts />} />
           <Route path="post/:postID" element={<Post />} />
+          <Route path="photos" element={<Photos />} />
+          <Route path="todos" element={<Todos />} />
           <Route path="news" element={<News />} />
           <Route path="login" element={<Login />} />
-          <Route path="photos" element={<Photos />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
 
