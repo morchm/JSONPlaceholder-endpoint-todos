@@ -1,6 +1,8 @@
 import useRequestData from "../hooks/useRequestData";
 import { useState, useEffect } from "react";
 import Loader from "../components/Loader";
+import PrevNext from "../components/PrevNext";
+import ItemsPerPage from "../components/ItemsPerPage";
 
 export default function Photos() {
   const { data, isLoading, error, makeRequest } = useRequestData();
@@ -20,7 +22,10 @@ export default function Photos() {
       {error && <h2>Error...</h2>}
 
       <div>
-        {[5, 10, 20].map(o => (
+        
+        <ItemsPerPage setItemsPerPage={setItemsPerPage} setCurrentPage={setCurrentPage} options={[5, 10, 100]}/>
+
+        {/* {[5, 10, 20].map(o => (
           <button
             className="btn"
             onClick={() => {
@@ -29,24 +34,16 @@ export default function Photos() {
             }}>
             {o} pr. side
           </button>
-        ))}
+        ))} */}
       </div>
 
       {data && (
-        <>
-          <button
-            className="btn"
-            onClick={() => setCurrentPage(currentPage - 1)}
-            disabled={currentPage <= 0}>
-            Prev
-          </button>
-          <button
-            className="btn"
-            onClick={() => setCurrentPage(currentPage + 1)}
-            disabled={currentPage + 1 >= Math.ceil(data.length / itemsPerPage)}>
-            Next
-          </button>
-        </>
+        <PrevNext
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
+          dataLength={data.length}
+          itemsPerPage={itemsPerPage}
+        />
       )}
 
       {/* .slice er med til at give effekten af at "skifte side" */}
@@ -63,7 +60,12 @@ export default function Photos() {
               <div>
                 <h4 className="photoTitle">{p.title}</h4>
                 <figure>
-                  <img className="photo" src={p.thumbnailUrl} alt={p.id} />
+                  <img
+                    className="photo"
+                    src={p.thumbnailUrl}
+                    alt={p.id}
+                    loading="lazy"
+                  />
                 </figure>
               </div>
             ))}

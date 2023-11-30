@@ -18,14 +18,16 @@ export default function Todos() {
 
       {data && (
         <>
+
+
         {/* Bruger useRequest hook igen til at loade query med true/false*/}
           <button onClick={() => {makeRequest("https://jsonplaceholder.typicode.com/users/1/todos?completed=true")}}>Vis udførte todos</button>
           <button onClick={() => {makeRequest("https://jsonplaceholder.typicode.com/users/1/todos?completed=false");}}>Vis afventende todos</button>
 
           {data.map(p => (
             <div>
-              <h4>{p.title}</h4>
-              <p>Completed = {p.completed.toString()}</p>
+              <h4>TODO: {p.title}</h4>
+              <p>Udført: <span className={p.completed ? "done" : "notDone"}>{p.completed ? "JA" : "NEJ"}</span></p>
             </div>
           ))}
 
