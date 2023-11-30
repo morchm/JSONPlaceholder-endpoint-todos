@@ -19,6 +19,7 @@ import Posts from "./jsonplaceholder/Posts";
 import Post from "./jsonplaceholder/Post";
 import Photos from "./jsonplaceholder/Photos";
 import Todos from "./jsonplaceholder/Todos";
+import Starship from "./jsonplaceholder/Starships";
 
 function App() {
   // ROUTER PROVIDER
@@ -34,6 +35,7 @@ function App() {
           <Route path="post/:postID" element={<Post />} />
           <Route path="photos" element={<Photos />} />
           <Route path="todos" element={<Todos />} />
+          <Route path="starships" element={<Starship/>} />
           <Route path="news" element={<News />} />
           <Route path="login" element={<Login />} />
           <Route path="*" element={<NoMatch />} />

@@ -11,6 +11,7 @@ const Navbar = () => {
         <NavLink to="/posts">JSON Placeholder</NavLink>
         <NavLink to="/photos">Fotoer</NavLink>
         <NavLink to="/todos">Todos</NavLink>
+        <NavLink to="/starships">Starships</NavLink>
 
         <NavLink to="/news">Nyheder</NavLink>
         <NavLink to="/contact">Kontakt</NavLink>
