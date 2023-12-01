@@ -17,17 +17,17 @@ const Posts = () => {
 
   return (
 
-    <div>
-      <h1>JSONPlaceholder - Posts</h1>
+    <div className="max-w-7xl m-auto text-center">
+      <h1 className="text-center font-bold text-2xl m-5">JSONPlaceholder - Posts</h1>
       {isLoading && <Loader/>}
       {error && <h2>Error...</h2>}
 
       {/* For at sætte, hvor mange ting der kan være per side.
           currentPage bliver reset, så brugeren ikke mister data, når de fx. er på side 5 og trykker på 20 pr side.
       */}
-      <div>
+      <div >
       {
-          [ 5, 10, 20, 50, 100].map(o => <button className="btn" onClick={()=> {setItemsPerPage(o); setCurrentPage(0)}}>{o} pr. side</button>)
+          [ 5, 10, 20, 50, 100].map((o, index) => <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-thin text-sm  py-2 px-4 rounded-l m-1 rounded"  key={index} onClick={()=> {setItemsPerPage(o); setCurrentPage(0)}}>{o} pr. side</button>)
         }
 
         {/* 
@@ -38,12 +38,13 @@ const Posts = () => {
       </div>
 
       {data && (
-        <>
-          <button className="btn" onClick={() => setCurrentPage(currentPage - 1)} disabled={currentPage <= 0}>Prev</button>
-          <button className="btn" onClick={() => setCurrentPage(currentPage + 1)} disabled={currentPage + 1 >= Math.ceil(data.length / itemsPerPage)}>Next</button>
-        </>
+        <div className="inline-flex">
+          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l m-1 rounded" onClick={() => setCurrentPage(currentPage - 1)} disabled={currentPage <= 0}>Prev</button>
+          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l m-1 rounded" onClick={() => setCurrentPage(currentPage + 1)} disabled={currentPage + 1 >= Math.ceil(data.length / itemsPerPage)}>Next</button>
+        </div>
       )}
 
+      <div className="flex flex-wrap justify-center">
       {data &&
         data
           .slice(
@@ -51,13 +52,17 @@ const Posts = () => {
             currentPage * itemsPerPage + itemsPerPage
           )
           .map((p) => (
-            <div className="card" key={p.id}>
-              <h2 className="text-xl font-bold">{p.title}</h2>
-              {/* <p>{p.body}</p> */}
-              <p>{p.id}</p>
-              <Link to={"/post/" + p.id}><button>Læs mere</button></Link>
-            </div>
+       
+              <div className="w-80 rounded overflow-hidden shadow-lg m-2 px-6 py-4 border-2 border-t-indigo-500" key={p.id}>
+                <h2 className="font-bold text-xl mb-2">{p.title}</h2>
+                {/* <p>{p.body}</p> */}
+                <p>{p.id}</p>
+                <Link to={"/post/" + p.id}><button>Læs mere</button></Link>
+              </div>
           ))}
+      </div> {/* END card */}
+
+
     </div>
   );
 };
