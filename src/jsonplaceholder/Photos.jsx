@@ -16,14 +16,19 @@ export default function Photos() {
   }, []);
 
   return (
-    <>
-      <h1>JSONPlaceholder - Billeder</h1>
+    <div className="max-w-7xl m-auto text-center">
+      <h1 className="text-center font-bold text-2xl m-5">
+        JSONPlaceholder - Billeder
+      </h1>
       {isLoading && <Loader />}
       {error && <h2>Error...</h2>}
 
       <div>
-        
-        <ItemsPerPage setItemsPerPage={setItemsPerPage} setCurrentPage={setCurrentPage} options={[5, 10, 100]}/>
+        <ItemsPerPage
+          setItemsPerPage={setItemsPerPage}
+          setCurrentPage={setCurrentPage}
+          options={[5, 10, 100]}
+        />
 
         {/* {[5, 10, 20].map(o => (
           <button
@@ -49,19 +54,18 @@ export default function Photos() {
       {/* .slice er med til at give effekten af at "skifte side" */}
       {/* Det gør sådan, at den kan fjerne items fra starten og slutningen af et array, uden rent faktisk at
       modificere den originale */}
-      <div className="photoContainer">
+      <div className="flex flex-wrap justify-center ">
         {data &&
           data
             .slice(
               currentPage * itemsPerPage,
               currentPage * itemsPerPage + itemsPerPage
             )
-            .map(p => (
-              <div>
-                <h4 className="photoTitle">{p.title}</h4>
+            .map((p) => (
+              <div className="w-80 rounded overflow-hidden shadow-lg m-2 px-6 py-4 border-2 border-t-indigo-500">
+                <h4 className="font-bold text-xl mb-2">{p.title}</h4>
                 <figure>
                   <img
-                    className="photo"
                     src={p.thumbnailUrl}
                     alt={p.id}
                     loading="lazy"
@@ -70,6 +74,6 @@ export default function Photos() {
               </div>
             ))}
       </div>
-    </>
+    </div>
   );
 }

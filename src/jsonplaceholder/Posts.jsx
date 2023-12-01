@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import useRequestData from "../hooks/useRequestData";
 import Loader from "../components/Loader";
 import { Link, useParams } from "react-router-dom";
+import PrevNext from "../components/PrevNext";
+import ItemsPerPage from "../components/ItemsPerPage";
 
 const Posts = () => {
   const { data, isLoading, error, makeRequest } = useRequestData();
@@ -26,9 +28,11 @@ const Posts = () => {
           currentPage bliver reset, så brugeren ikke mister data, når de fx. er på side 5 og trykker på 20 pr side.
       */}
       <div >
-      {
+        <ItemsPerPage setItemsPerPage={setItemsPerPage} setCurrentPage={setCurrentPage} options={[5, 10, 20, 50, 100]}/>
+
+      {/* {
           [ 5, 10, 20, 50, 100].map((o, index) => <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-thin text-sm  py-2 px-4 rounded-l m-1 rounded"  key={index} onClick={()=> {setItemsPerPage(o); setCurrentPage(0)}}>{o} pr. side</button>)
-        }
+        } */}
 
         {/* 
         <button className="btn" onClick={() => {setItemsPerPage(10), setCurrentPage(0);}}>10 pr. side</button>
@@ -38,10 +42,7 @@ const Posts = () => {
       </div>
 
       {data && (
-        <div className="inline-flex">
-          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l m-1 rounded" onClick={() => setCurrentPage(currentPage - 1)} disabled={currentPage <= 0}>Prev</button>
-          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l m-1 rounded" onClick={() => setCurrentPage(currentPage + 1)} disabled={currentPage + 1 >= Math.ceil(data.length / itemsPerPage)}>Next</button>
-        </div>
+        <PrevNext setCurrentPage={setCurrentPage} currentPage={currentPage} dataLength={data.lenght} itemsPerPage={itemsPerPage}/>
       )}
 
       <div className="flex flex-wrap justify-center">
