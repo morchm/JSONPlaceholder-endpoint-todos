@@ -6,13 +6,32 @@ const useRequestData = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
-  const makeRequest = async (url) => {
-
-    setIsLoading(true)
+  const makeRequest = async (url, method = "GET", bodydata = null) => {
+    setIsLoading(true);
 
     //Kalder API
     try {
-      let response = await axios.get(url);
+      let response 
+
+      switch (method) {
+        case "GET":
+          response = await axios.get(url);
+          break;
+        case "POST":
+          response = await axios.post(url, bodydata);
+          break;
+        case "PUT":
+          response = await axios.put(url, bodydata);
+          break;
+        case "PATCH":
+          response = await axios.patch(url, bodydata);
+          break;
+        case "DELETE":
+          response = await axios.delete(url);
+          break;
+        default:
+          throw new Error("Invalid method - GET POST PUT PATCH or DELETE was expected");
+      }
 
       if (response && response.data != undefined) {
         setData(response.data);

@@ -20,6 +20,8 @@ import Post from "./jsonplaceholder/Post";
 import Photos from "./jsonplaceholder/Photos";
 import Todos from "./jsonplaceholder/Todos";
 import Starship from "./jsonplaceholder/Starships";
+import PostsAdmin from "./jsonplaceholder/PostsAdmin";
+import PostCreate from "./jsonplaceholder/PostCreate";
 
 function App() {
   // ROUTER PROVIDER
@@ -31,10 +33,14 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
+          {/* JSONPlaceholder */}
           <Route path="posts" element={<Posts />} />
+          <Route path="postsadmin" element={<PostsAdmin />} />
+          <Route path="postcreate" element={<PostCreate />} />
           <Route path="post/:postID" element={<Post />} />
           <Route path="photos" element={<Photos />} />
           <Route path="todos" element={<Todos />} />
+          {/* SWAPI */}
           <Route path="starships" element={<Starship/>} />
           <Route path="news" element={<News />} />
           <Route path="login" element={<Login />} />
