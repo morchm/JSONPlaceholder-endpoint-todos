@@ -33,7 +33,7 @@ export default function Starship() {
         {data &&
           data.results.map((ships, i) => (
             <div  className="w-80 rounded overflow-hidden shadow-lg m-2 px-6 py-4 border-2 border-t-indigo-500" key={"starship" + i}>
-              <p>{ships.name}</p>
+              <h2 className="text-center font-bold text-2xl m-5">{ships.name}</h2>
               <ul>
                 <li>{ships.model}</li>
                 <li>
