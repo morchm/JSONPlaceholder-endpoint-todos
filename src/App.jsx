@@ -22,6 +22,8 @@ import Todos from "./jsonplaceholder/Todos";
 import Starship from "./jsonplaceholder/Starships";
 import PostsAdmin from "./jsonplaceholder/PostsAdmin";
 import PostCreate from "./jsonplaceholder/PostCreate";
+import PostEdit from "./jsonplaceholder/PostEdit";
+import Everything from "./jsonplaceholder/Everything";
 
 function App() {
   // ROUTER PROVIDER
@@ -35,9 +37,10 @@ function App() {
           <Route path="contact" element={<Contact />} />
           {/* JSONPlaceholder */}
           <Route path="posts" element={<Posts />} />
+          <Route path="post/:postID" element={<Post />} />
           <Route path="postsadmin" element={<PostsAdmin />} />
           <Route path="postcreate" element={<PostCreate />} />
-          <Route path="post/:postID" element={<Post />} />
+          <Route path="postedit/:postID" element={<PostEdit />} />
           <Route path="photos" element={<Photos />} />
           <Route path="todos" element={<Todos />} />
           {/* SWAPI */}
@@ -45,6 +48,8 @@ function App() {
           <Route path="news" element={<News />} />
           <Route path="login" element={<Login />} />
           <Route path="*" element={<NoMatch />} />
+          {/* NEWS API */}
+          <Route path="everything" element={<Everything />} />
         </Route>
 
         {/* ---------------- ADMIN ---------------- */}
