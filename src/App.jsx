@@ -24,6 +24,8 @@ import PostsAdmin from "./jsonplaceholder/PostsAdmin";
 import PostCreate from "./jsonplaceholder/PostCreate";
 import PostEdit from "./jsonplaceholder/PostEdit";
 import Everything from "./jsonplaceholder/Everything";
+import TopHeadlines from "./jsonplaceholder/TopHeadlines";
+import Hobby from "./jsonplaceholder/Hobby";
 
 function App() {
   // ROUTER PROVIDER
@@ -50,6 +52,9 @@ function App() {
           <Route path="*" element={<NoMatch />} />
           {/* NEWS API */}
           <Route path="everything" element={<Everything />} />
+          <Route path="topheadlines" element={<TopHeadlines />} />
+          {/* RAPID API */}
+          <Route path="hobby" element={<Hobby />} />
         </Route>
 
         {/* ---------------- ADMIN ---------------- */}
