@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav  className="flex items-center justify-between flex-wrap bg-teal-500 p-6 navbar">
+    <nav  className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <a className="font-semibold text-xl tracking-tight" href="#">LOGO A/S</a>
       </div>
@@ -30,6 +30,18 @@ const Navbar = () => {
         </div>
         {/* ---------- SWAPI Links ---------- */}
         <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/starships">Starships</NavLink>
+        {/* ---------- Rapid API Links ----------*/}
+        <div className="dropdown">
+          <button className="dropbtn text-teal-200 hover:text-white">Rapid API</button>
+          <div className="dropdown-content">
+            <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/hobby">Hobbier</NavLink>
+            <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/facts">Facts</NavLink>
+            <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/lovecalc">Love Calculator</NavLink>
+            <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/dadjoke">Far Jokes</NavLink>
+          </div>
+
+        </div>
+
 
         </div>
 

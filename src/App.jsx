@@ -19,13 +19,16 @@ import Posts from "./jsonplaceholder/Posts";
 import Post from "./jsonplaceholder/Post";
 import Photos from "./jsonplaceholder/Photos";
 import Todos from "./jsonplaceholder/Todos";
-import Starship from "./jsonplaceholder/Starships";
+import Starship from "./jsonplaceholder/SWAPI/Starships";
 import PostsAdmin from "./jsonplaceholder/PostsAdmin";
 import PostCreate from "./jsonplaceholder/PostCreate";
 import PostEdit from "./jsonplaceholder/PostEdit";
 import Everything from "./jsonplaceholder/Everything";
 import TopHeadlines from "./jsonplaceholder/TopHeadlines";
-import Hobby from "./jsonplaceholder/Hobby";
+import Hobby from "./jsonplaceholder/RapidAPI/Hobby";
+import DadJokes from "./jsonplaceholder/RapidAPI/DadJokes";
+import Facts from "./jsonplaceholder/RapidAPI/Facts";
+import LoveCalc from "./jsonplaceholder/RapidAPI/LoveCalc";
 
 function App() {
   // ROUTER PROVIDER
@@ -55,6 +58,9 @@ function App() {
           <Route path="topheadlines" element={<TopHeadlines />} />
           {/* RAPID API */}
           <Route path="hobby" element={<Hobby />} />
+          <Route path="dadjoke" element={<DadJokes />} />
+          <Route path="facts" element={<Facts />} />
+          <Route path="lovecalc" element={<LoveCalc />} />
         </Route>
 
         {/* ---------------- ADMIN ---------------- */}

@@ -1,6 +1,6 @@
-import useRequestData from "../hooks/useRequestData";
+import useRequestData from "../../hooks/useRequestData";
 import { useState, useEffect } from "react";
-import Loader from "../components/Loader";
+import Loader from "../../components/Loader";
 
 export default function Starship() {
   const { data, isLoading, error, makeRequest } = useRequestData();

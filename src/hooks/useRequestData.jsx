@@ -6,7 +6,7 @@ const useRequestData = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
-  const makeRequest = async (url, method = "GET", bodydata = null) => {
+  const makeRequest = async (url, method = "GET", bodydata = null, headers = null, params = null) => {
     setIsLoading(true);
 
     //Kalder API
@@ -15,7 +15,7 @@ const useRequestData = () => {
 
       switch (method) {
         case "GET":
-          response = await axios.get(url);
+          response = await axios.get(url, {headers: headers, params: params});
           break;
         case "POST":
           response = await axios.post(url, bodydata);

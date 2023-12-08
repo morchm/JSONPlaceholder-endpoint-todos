@@ -28,7 +28,7 @@ img {
 }
 
 .done {
-  color: green;
+  color: rgb(0, 255, 0);
   font-weight: bold;
 }
 
@@ -44,7 +44,7 @@ img {
 }
 
 .dropdown{
-  /* float: left; */
+  float: left;
   display: inline;
   overflow: hidden;
   margin: 0 1rem 0 0;
