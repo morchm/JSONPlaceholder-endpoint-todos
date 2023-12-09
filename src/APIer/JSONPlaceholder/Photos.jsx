@@ -1,8 +1,8 @@
-import useRequestData from "../hooks/useRequestData";
+import useRequestData from "../../hooks/useRequestData";
 import { useState, useEffect } from "react";
-import Loader from "../components/Loader";
-import PrevNext from "../components/PrevNext";
-import ItemsPerPage from "../components/ItemsPerPage";
+import Loader from "../../components/Loader";
+import PrevNext from "../../components/PrevNext";
+import ItemsPerPage from "../../components/ItemsPerPage";
 
 export default function Photos() {
   const { data, isLoading, error, makeRequest } = useRequestData();

@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
-import useRequestData from "../hooks/useRequestData";
+import useRequestData from "../../hooks/useRequestData";
 import { useEffect } from "react";
-import Loader from "../components/Loader";
+import Loader from "../../components/Loader";
 
 const Post = () => {
   const { data, isLoading, error, makeRequest } = useRequestData();

@@ -1,31 +1,30 @@
-import Error from "../components/Error";
-import Loader from "../components/Loader";
-import useRequestData from "../hooks/useRequestData";
+import Error from "../../components/Error";
+import Loader from "../../components/Loader";
+import useRequestData from "../../hooks/useRequestData";
 import { useEffect, useState } from "react";
 import { FaMagnifyingGlass } from "react-icons/fa6";
-import countries from "../../public/newsapi_requestparameters.json";
+import countries from "../../../public/newsapi_requestparameters.json";
 
 export default function TopHeadlines() {
   const { makeRequest, isLoading, data, error } = useRequestData();
 
-  //Sprog
-  const [language, setLanguage] = useState("en");
+  //State til at rumme det der skal søges efter i nyhederne
+  const [searchKey, setSearchKey] = useState("");
+
+  //Land
+  const [country, setCountry] = useState("us")
+
+  //Kategori
+  const [category, setCategory] = useState("business");
 
   //Hent data
   useEffect(() => {
-    makeRequest(
-      "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=4317cd71220a455aa2817f065604b3c9"
-    );
-  }, []);
+    handleSearch();
+  }, [country, category]);
 
   //Når der er submit på form/søgning
   const handleSearch = e => {
-    makeRequest(
-      "https://newsapi.org/v2/everything?q=" +
-        searchKey +
-        "&language=" +
-        language +
-        "&apiKey=8a6c9cb70f0f4de88f91a4c38b5b6fd9",
+    makeRequest("https://newsapi.org/v2/top-headlines?q="+ searchKey + "&country="+ country +"&category="+ category +"&apiKey=4317cd71220a455aa2817f065604b3c9",
       "GET"
     );
   };
@@ -47,32 +46,30 @@ export default function TopHeadlines() {
 
       {/*  ---------- SEARCH INPUT ---------- */}
       <div className="flex flex-wrap justify-center">
-        {/* --- Søg --- */}
         <input
           type="search"
-          placeholder="Søg..."
-          className="shadow-lg rounded border-2 p-1 my-2"
+          onKeyUp={e => handleSearchKeyUp(e)}
+          onChange={e => setSearchKey(e.target.value)}
+          value={searchKey}
+          placeholder="Søg ..."
+          className="shadow-lg rounded border-2 p-1"
         />
-        <button className="bg-gray-300 hover:bg-gray-500 rounded mx-2 p-1">
+        <button className="bg-gray-300 hover:bg-gray-500 rounded mx-2">
           <FaMagnifyingGlass className="m-2" />
         </button>
       </div>
 
       <div className="flex justify-center">
-        {/* ---------- LANGUAGE ---------- */}
-        <div>
-          <label>Sprog: </label>
-          <select name="language" id="language">
-            <option value="en">Engelsk</option>
-            <option value="de">Tysk</option>
-            <option value="ar">Arabisk</option>
-          </select>
-        </div>
 
         {/* ---------- COUNTRIES ---------- */}
         <div>
           <label>Land: </label>
-          <select name="country" id="country">
+          <select
+          onChange={e => setCountry(e.target.value)}
+          value={country}
+          name="country" 
+          id="country"
+          className="shadow-lg rounded border-2 p-1">
             <option value="us">United States</option>
             <option value="ae">Arab Emirates</option>
             <option value="de">Germany</option>
@@ -82,7 +79,13 @@ export default function TopHeadlines() {
 
         <div>
           <label>Kategori: </label>
-          <select name="category" id="category">
+          <select 
+          onChange={e => setCategory(e.target.value)}
+          value={category}
+          name="category" 
+          id="category"
+          className="shadow-lg rounded border-2 p-1"
+          >
             <option value="business">Business</option>
             <option value="general">General</option>
             <option value="health">Health</option>
@@ -119,7 +122,7 @@ export default function TopHeadlines() {
                 </a>
               </p>
             </div>
-          ))}{" "}
+          ))}
         {/* END MAP */}
       </div>
     </div>

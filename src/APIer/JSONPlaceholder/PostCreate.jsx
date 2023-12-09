@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import useRequestData from "../hooks/useRequestData";
-import Loader from "../components/Loader";
+import useRequestData from "../../hooks/useRequestData";
+import Loader from "../../components/Loader";
 import { Link, useParams } from "react-router-dom";
 
 export default function PostCreate() {

@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import useRequestData from "../hooks/useRequestData";
-import Loader from "../components/Loader";
+import useRequestData from "../../hooks/useRequestData";
+import Loader from "../../components/Loader";
 import { Link, useParams } from "react-router-dom";
-import PrevNext from "../components/PrevNext";
-import ItemsPerPage from "../components/ItemsPerPage";
+import PrevNext from "../../components/PrevNext";
+import ItemsPerPage from "../../components/ItemsPerPage";
 
 // Icons - npm i react-icons
 import { FaEdit, FaPlus } from "react-icons/fa";

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import useRequestData from "../hooks/useRequestData";
-import Loader from "../components/Loader";
-import Error from "../components/Error";
+import useRequestData from "../../hooks/useRequestData";
+import Loader from "../../components/Loader";
+import Error from "../../components/Error";
 import { Link, useParams } from "react-router-dom";
 
 export default function PostEdit() {

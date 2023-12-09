@@ -1,6 +1,6 @@
-import Error from "../components/Error";
-import Loader from "../components/Loader";
-import useRequestData from "../hooks/useRequestData";
+import Error from "../../components/Error";
+import Loader from "../../components/Loader";
+import useRequestData from "../../hooks/useRequestData";
 import { useEffect, useState } from "react";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 

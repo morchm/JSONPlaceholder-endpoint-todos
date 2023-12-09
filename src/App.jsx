@@ -15,20 +15,20 @@ import Layout from "./layout/Layout";
 import LayoutAdmin from "./Layout/ADMIN/LayoutAdmin";
 import HomeAdmin from "./views/ADMIN/HomeAdmin";
 import News from "./views/News";
-import Posts from "./jsonplaceholder/Posts";
-import Post from "./jsonplaceholder/Post";
-import Photos from "./jsonplaceholder/Photos";
-import Todos from "./jsonplaceholder/Todos";
-import Starship from "./jsonplaceholder/SWAPI/Starships";
-import PostsAdmin from "./jsonplaceholder/PostsAdmin";
-import PostCreate from "./jsonplaceholder/PostCreate";
-import PostEdit from "./jsonplaceholder/PostEdit";
-import Everything from "./jsonplaceholder/Everything";
-import TopHeadlines from "./jsonplaceholder/TopHeadlines";
-import Hobby from "./jsonplaceholder/RapidAPI/Hobby";
-import DadJokes from "./jsonplaceholder/RapidAPI/DadJokes";
-import Facts from "./jsonplaceholder/RapidAPI/Facts";
-import LoveCalc from "./jsonplaceholder/RapidAPI/LoveCalc";
+import Posts from "./APIer/JSONPlaceholder/Posts";
+import Post from "./APIer/JSONPlaceholder/Post";
+import Photos from "./APIer/JSONPlaceholder/Photos";
+import Todos from "./APIer/JSONPlaceholder/Todos";
+import Starship from "./APIer/SWAPI/Starships";
+import PostsAdmin from "./APIer/JSONPlaceholder/PostsAdmin";
+import PostCreate from "./APIer/JSONPlaceholder/PostCreate";
+import PostEdit from "./APIer/JSONPlaceholder/PostEdit";
+import Everything from "./APIer/NewsAPI/Everything";
+import TopHeadlines from "./APIer/NewsAPI/TopHeadlines";
+import Hobby from "./APIer/RapidAPI/Hobby";
+import DadJokes from "./APIer/RapidAPI/DadJokes";
+import Facts from "./APIer/RapidAPI/Facts";
+import LoveCalc from "./APIer/RapidAPI/LoveCalc";
 
 function App() {
   // ROUTER PROVIDER
@@ -40,7 +40,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
-          {/* JSONPlaceholder */}
+          {/*/APIer/JSONPlaceholder */}
           <Route path="posts" element={<Posts />} />
           <Route path="post/:postID" element={<Post />} />
           <Route path="postsadmin" element={<PostsAdmin />} />
