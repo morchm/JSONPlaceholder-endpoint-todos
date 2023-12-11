@@ -3,7 +3,6 @@ import Loader from "../../components/Loader";
 import useRequestData from "../../hooks/useRequestData";
 import { useEffect, useState } from "react";
 import { FaMagnifyingGlass } from "react-icons/fa6";
-import countries from "../../../public/newsapi_requestparameters.json";
 
 export default function TopHeadlines() {
   const { makeRequest, isLoading, data, error } = useRequestData();

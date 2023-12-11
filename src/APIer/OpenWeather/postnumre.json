@@ -1,0 +1,2502 @@
+[
+	{
+		"postnr": "2000",
+		"by": "Frederiksberg"
+	},
+	{
+		"postnr": "2100",
+		"by": "København Ø"
+	},
+	{
+		"postnr": "2150",
+		"by": "Nordhavn"
+	},
+	{
+		"postnr": "2200",
+		"by": "København N"
+	},
+	{
+		"postnr": "2300",
+		"by": "København S"
+	},
+	{
+		"postnr": "2400",
+		"by": "København NV"
+	},
+	{
+		"postnr": "2412",
+		"by": "Grønland"
+	},
+	{
+		"postnr": "2450",
+		"by": "København SV"
+	},
+	{
+		"postnr": "2500",
+		"by": "Valby"
+	},
+	{
+		"postnr": "2600",
+		"by": "Glostrup"
+	},
+	{
+		"postnr": "2605",
+		"by": "Brøndby"
+	},
+	{
+		"postnr": "2610",
+		"by": "Rødovre"
+	},
+	{
+		"postnr": "2620",
+		"by": "Albertslund"
+	},
+	{
+		"postnr": "2625",
+		"by": "Vallensbæk"
+	},
+	{
+		"postnr": "2630",
+		"by": "Taastrup"
+	},
+	{
+		"postnr": "2635",
+		"by": "Ishøj"
+	},
+	{
+		"postnr": "2640",
+		"by": "Hedehusene"
+	},
+	{
+		"postnr": "2644",
+		"by": "Spejdernes Lejr 2022"
+	},
+	{
+		"postnr": "2650",
+		"by": "Hvidovre"
+	},
+	{
+		"postnr": "2660",
+		"by": "Brøndby Strand"
+	},
+	{
+		"postnr": "2665",
+		"by": "Vallensbæk Strand"
+	},
+	{
+		"postnr": "2670",
+		"by": "Greve"
+	},
+	{
+		"postnr": "2680",
+		"by": "Solrød Strand"
+	},
+	{
+		"postnr": "2690",
+		"by": "Karlslunde"
+	},
+	{
+		"postnr": "2700",
+		"by": "Brønshøj"
+	},
+	{
+		"postnr": "2720",
+		"by": "Vanløse"
+	},
+	{
+		"postnr": "2730",
+		"by": "Herlev"
+	},
+	{
+		"postnr": "2740",
+		"by": "Skovlunde"
+	},
+	{
+		"postnr": "2750",
+		"by": "Ballerup"
+	},
+	{
+		"postnr": "2760",
+		"by": "Måløv"
+	},
+	{
+		"postnr": "2765",
+		"by": "Smørum"
+	},
+	{
+		"postnr": "2770",
+		"by": "Kastrup"
+	},
+	{
+		"postnr": "2791",
+		"by": "Dragør"
+	},
+	{
+		"postnr": "2800",
+		"by": "Kongens Lyngby"
+	},
+	{
+		"postnr": "2820",
+		"by": "Gentofte"
+	},
+	{
+		"postnr": "2830",
+		"by": "Virum"
+	},
+	{
+		"postnr": "2840",
+		"by": "Holte"
+	},
+	{
+		"postnr": "2850",
+		"by": "Nærum"
+	},
+	{
+		"postnr": "2860",
+		"by": "Søborg"
+	},
+	{
+		"postnr": "2870",
+		"by": "Dyssegård"
+	},
+	{
+		"postnr": "2880",
+		"by": "Bagsværd"
+	},
+	{
+		"postnr": "2900",
+		"by": "Hellerup"
+	},
+	{
+		"postnr": "2920",
+		"by": "Charlottenlund"
+	},
+	{
+		"postnr": "2930",
+		"by": "Klampenborg"
+	},
+	{
+		"postnr": "2942",
+		"by": "Skodsborg"
+	},
+	{
+		"postnr": "2950",
+		"by": "Vedbæk"
+	},
+	{
+		"postnr": "2960",
+		"by": "Rungsted Kyst"
+	},
+	{
+		"postnr": "2970",
+		"by": "Hørsholm"
+	},
+	{
+		"postnr": "2980",
+		"by": "Kokkedal"
+	},
+	{
+		"postnr": "2990",
+		"by": "Nivå"
+	},
+	{
+		"postnr": "3000",
+		"by": "Helsingør"
+	},
+	{
+		"postnr": "3050",
+		"by": "Humlebæk"
+	},
+	{
+		"postnr": "3060",
+		"by": "Espergærde"
+	},
+	{
+		"postnr": "3070",
+		"by": "Snekkersten"
+	},
+	{
+		"postnr": "3080",
+		"by": "Tikøb"
+	},
+	{
+		"postnr": "3100",
+		"by": "Hornbæk"
+	},
+	{
+		"postnr": "3120",
+		"by": "Dronningmølle"
+	},
+	{
+		"postnr": "3140",
+		"by": "Ålsgårde"
+	},
+	{
+		"postnr": "3150",
+		"by": "Hellebæk"
+	},
+	{
+		"postnr": "3200",
+		"by": "Helsinge"
+	},
+	{
+		"postnr": "3210",
+		"by": "Vejby"
+	},
+	{
+		"postnr": "3220",
+		"by": "Tisvildeleje"
+	},
+	{
+		"postnr": "3230",
+		"by": "Græsted"
+	},
+	{
+		"postnr": "3250",
+		"by": "Gilleleje"
+	},
+	{
+		"postnr": "3300",
+		"by": "Frederiksværk"
+	},
+	{
+		"postnr": "3310",
+		"by": "Ølsted"
+	},
+	{
+		"postnr": "3320",
+		"by": "Skævinge"
+	},
+	{
+		"postnr": "3330",
+		"by": "Gørløse"
+	},
+	{
+		"postnr": "3360",
+		"by": "Liseleje"
+	},
+	{
+		"postnr": "3370",
+		"by": "Melby"
+	},
+	{
+		"postnr": "3390",
+		"by": "Hundested"
+	},
+	{
+		"postnr": "3400",
+		"by": "Hillerød"
+	},
+	{
+		"postnr": "3450",
+		"by": "Allerød"
+	},
+	{
+		"postnr": "3460",
+		"by": "Birkerød"
+	},
+	{
+		"postnr": "3480",
+		"by": "Fredensborg"
+	},
+	{
+		"postnr": "3490",
+		"by": "Kvistgård"
+	},
+	{
+		"postnr": "3500",
+		"by": "Værløse"
+	},
+	{
+		"postnr": "3520",
+		"by": "Farum"
+	},
+	{
+		"postnr": "3540",
+		"by": "Lynge"
+	},
+	{
+		"postnr": "3550",
+		"by": "Slangerup"
+	},
+	{
+		"postnr": "3600",
+		"by": "Frederikssund"
+	},
+	{
+		"postnr": "3630",
+		"by": "Jægerspris"
+	},
+	{
+		"postnr": "3650",
+		"by": "Ølstykke"
+	},
+	{
+		"postnr": "3660",
+		"by": "Stenløse"
+	},
+	{
+		"postnr": "3670",
+		"by": "Veksø Sjælland"
+	},
+	{
+		"postnr": "3700",
+		"by": "Rønne"
+	},
+	{
+		"postnr": "3720",
+		"by": "Aakirkeby"
+	},
+	{
+		"postnr": "3730",
+		"by": "Nexø"
+	},
+	{
+		"postnr": "3740",
+		"by": "Svaneke"
+	},
+	{
+		"postnr": "3751",
+		"by": "Østermarie"
+	},
+	{
+		"postnr": "3760",
+		"by": "Gudhjem"
+	},
+	{
+		"postnr": "3770",
+		"by": "Allinge"
+	},
+	{
+		"postnr": "3782",
+		"by": "Klemensker"
+	},
+	{
+		"postnr": "3790",
+		"by": "Hasle"
+	},
+	{
+		"postnr": "4000",
+		"by": "Roskilde"
+	},
+	{
+		"postnr": "4030",
+		"by": "Tune"
+	},
+	{
+		"postnr": "4040",
+		"by": "Jyllinge"
+	},
+	{
+		"postnr": "4050",
+		"by": "Skibby"
+	},
+	{
+		"postnr": "4060",
+		"by": "Kirke Såby"
+	},
+	{
+		"postnr": "4070",
+		"by": "Kirke Hyllinge"
+	},
+	{
+		"postnr": "4100",
+		"by": "Ringsted"
+	},
+	{
+		"postnr": "4129",
+		"by": "Ringsted"
+	},
+	{
+		"postnr": "4130",
+		"by": "Viby Sjælland"
+	},
+	{
+		"postnr": "4140",
+		"by": "Borup"
+	},
+	{
+		"postnr": "4160",
+		"by": "Herlufmagle"
+	},
+	{
+		"postnr": "4171",
+		"by": "Glumsø"
+	},
+	{
+		"postnr": "4173",
+		"by": "Fjenneslev"
+	},
+	{
+		"postnr": "4174",
+		"by": "Jystrup Midtsj"
+	},
+	{
+		"postnr": "4180",
+		"by": "Sorø"
+	},
+	{
+		"postnr": "4190",
+		"by": "Munke Bjergby"
+	},
+	{
+		"postnr": "4200",
+		"by": "Slagelse"
+	},
+	{
+		"postnr": "4220",
+		"by": "Korsør"
+	},
+	{
+		"postnr": "4230",
+		"by": "Skælskør"
+	},
+	{
+		"postnr": "4241",
+		"by": "Vemmelev"
+	},
+	{
+		"postnr": "4242",
+		"by": "Boeslunde"
+	},
+	{
+		"postnr": "4243",
+		"by": "Rude"
+	},
+	{
+		"postnr": "4244",
+		"by": "Agersø"
+	},
+	{
+		"postnr": "4245",
+		"by": "Omø"
+	},
+	{
+		"postnr": "4250",
+		"by": "Fuglebjerg"
+	},
+	{
+		"postnr": "4261",
+		"by": "Dalmose"
+	},
+	{
+		"postnr": "4262",
+		"by": "Sandved"
+	},
+	{
+		"postnr": "4270",
+		"by": "Høng"
+	},
+	{
+		"postnr": "4281",
+		"by": "Gørlev"
+	},
+	{
+		"postnr": "4291",
+		"by": "Ruds Vedby"
+	},
+	{
+		"postnr": "4293",
+		"by": "Dianalund"
+	},
+	{
+		"postnr": "4295",
+		"by": "Stenlille"
+	},
+	{
+		"postnr": "4296",
+		"by": "Nyrup"
+	},
+	{
+		"postnr": "4300",
+		"by": "Holbæk"
+	},
+	{
+		"postnr": "4305",
+		"by": "Orø"
+	},
+	{
+		"postnr": "4320",
+		"by": "Lejre"
+	},
+	{
+		"postnr": "4330",
+		"by": "Hvalsø"
+	},
+	{
+		"postnr": "4340",
+		"by": "Tølløse"
+	},
+	{
+		"postnr": "4350",
+		"by": "Ugerløse"
+	},
+	{
+		"postnr": "4360",
+		"by": "Kirke Eskilstrup"
+	},
+	{
+		"postnr": "4370",
+		"by": "Store Merløse"
+	},
+	{
+		"postnr": "4390",
+		"by": "Vipperød"
+	},
+	{
+		"postnr": "4400",
+		"by": "Kalundborg"
+	},
+	{
+		"postnr": "4420",
+		"by": "Regstrup"
+	},
+	{
+		"postnr": "4440",
+		"by": "Mørkøv"
+	},
+	{
+		"postnr": "4450",
+		"by": "Jyderup"
+	},
+	{
+		"postnr": "4460",
+		"by": "Snertinge"
+	},
+	{
+		"postnr": "4470",
+		"by": "Svebølle"
+	},
+	{
+		"postnr": "4480",
+		"by": "Store Fuglede"
+	},
+	{
+		"postnr": "4490",
+		"by": "Jerslev Sjælland"
+	},
+	{
+		"postnr": "4500",
+		"by": "Nykøbing Sj"
+	},
+	{
+		"postnr": "4520",
+		"by": "Svinninge"
+	},
+	{
+		"postnr": "4532",
+		"by": "Gislinge"
+	},
+	{
+		"postnr": "4534",
+		"by": "Hørve"
+	},
+	{
+		"postnr": "4540",
+		"by": "Fårevejle"
+	},
+	{
+		"postnr": "4550",
+		"by": "Asnæs"
+	},
+	{
+		"postnr": "4560",
+		"by": "Vig"
+	},
+	{
+		"postnr": "4571",
+		"by": "Grevinge"
+	},
+	{
+		"postnr": "4572",
+		"by": "Nørre Asmindrup"
+	},
+	{
+		"postnr": "4573",
+		"by": "Højby"
+	},
+	{
+		"postnr": "4581",
+		"by": "Rørvig"
+	},
+	{
+		"postnr": "4583",
+		"by": "Sjællands Odde"
+	},
+	{
+		"postnr": "4591",
+		"by": "Føllenslev"
+	},
+	{
+		"postnr": "4592",
+		"by": "Sejerø"
+	},
+	{
+		"postnr": "4593",
+		"by": "Eskebjerg"
+	},
+	{
+		"postnr": "4600",
+		"by": "Køge"
+	},
+	{
+		"postnr": "4621",
+		"by": "Gadstrup"
+	},
+	{
+		"postnr": "4622",
+		"by": "Havdrup"
+	},
+	{
+		"postnr": "4623",
+		"by": "Lille Skensved"
+	},
+	{
+		"postnr": "4632",
+		"by": "Bjæverskov"
+	},
+	{
+		"postnr": "4640",
+		"by": "Faxe"
+	},
+	{
+		"postnr": "4652",
+		"by": "Hårlev"
+	},
+	{
+		"postnr": "4653",
+		"by": "Karise"
+	},
+	{
+		"postnr": "4654",
+		"by": "Faxe Ladeplads"
+	},
+	{
+		"postnr": "4660",
+		"by": "Store Heddinge"
+	},
+	{
+		"postnr": "4671",
+		"by": "Strøby"
+	},
+	{
+		"postnr": "4672",
+		"by": "Klippinge"
+	},
+	{
+		"postnr": "4673",
+		"by": "Rødvig Stevns"
+	},
+	{
+		"postnr": "4681",
+		"by": "Herfølge"
+	},
+	{
+		"postnr": "4682",
+		"by": "Tureby"
+	},
+	{
+		"postnr": "4683",
+		"by": "Rønnede"
+	},
+	{
+		"postnr": "4684",
+		"by": "Holmegaard"
+	},
+	{
+		"postnr": "4690",
+		"by": "Haslev"
+	},
+	{
+		"postnr": "4700",
+		"by": "Næstved"
+	},
+	{
+		"postnr": "4720",
+		"by": "Præstø"
+	},
+	{
+		"postnr": "4733",
+		"by": "Tappernøje"
+	},
+	{
+		"postnr": "4735",
+		"by": "Mern"
+	},
+	{
+		"postnr": "4736",
+		"by": "Karrebæksminde"
+	},
+	{
+		"postnr": "4750",
+		"by": "Lundby"
+	},
+	{
+		"postnr": "4760",
+		"by": "Vordingborg"
+	},
+	{
+		"postnr": "4771",
+		"by": "Kalvehave"
+	},
+	{
+		"postnr": "4772",
+		"by": "Langebæk"
+	},
+	{
+		"postnr": "4773",
+		"by": "Stensved"
+	},
+	{
+		"postnr": "4780",
+		"by": "Stege"
+	},
+	{
+		"postnr": "4791",
+		"by": "Borre"
+	},
+	{
+		"postnr": "4792",
+		"by": "Askeby"
+	},
+	{
+		"postnr": "4793",
+		"by": "Bogø By"
+	},
+	{
+		"postnr": "4800",
+		"by": "Nykøbing F"
+	},
+	{
+		"postnr": "4840",
+		"by": "Nørre Alslev"
+	},
+	{
+		"postnr": "4850",
+		"by": "Stubbekøbing"
+	},
+	{
+		"postnr": "4862",
+		"by": "Guldborg"
+	},
+	{
+		"postnr": "4863",
+		"by": "Eskilstrup"
+	},
+	{
+		"postnr": "4871",
+		"by": "Horbelev"
+	},
+	{
+		"postnr": "4872",
+		"by": "Idestrup"
+	},
+	{
+		"postnr": "4873",
+		"by": "Væggerløse"
+	},
+	{
+		"postnr": "4874",
+		"by": "Gedser"
+	},
+	{
+		"postnr": "4880",
+		"by": "Nysted"
+	},
+	{
+		"postnr": "4891",
+		"by": "Toreby L"
+	},
+	{
+		"postnr": "4892",
+		"by": "Kettinge"
+	},
+	{
+		"postnr": "4894",
+		"by": "Øster Ulslev"
+	},
+	{
+		"postnr": "4895",
+		"by": "Errindlev"
+	},
+	{
+		"postnr": "4900",
+		"by": "Nakskov"
+	},
+	{
+		"postnr": "4912",
+		"by": "Harpelunde"
+	},
+	{
+		"postnr": "4913",
+		"by": "Horslunde"
+	},
+	{
+		"postnr": "4920",
+		"by": "Søllested"
+	},
+	{
+		"postnr": "4930",
+		"by": "Maribo"
+	},
+	{
+		"postnr": "4941",
+		"by": "Bandholm"
+	},
+	{
+		"postnr": "4942",
+		"by": "Askø og Lilleø"
+	},
+	{
+		"postnr": "4943",
+		"by": "Torrig L"
+	},
+	{
+		"postnr": "4944",
+		"by": "Fejø"
+	},
+	{
+		"postnr": "4945",
+		"by": "Femø"
+	},
+	{
+		"postnr": "4951",
+		"by": "Nørreballe"
+	},
+	{
+		"postnr": "4952",
+		"by": "Stokkemarke"
+	},
+	{
+		"postnr": "4953",
+		"by": "Vesterborg"
+	},
+	{
+		"postnr": "4960",
+		"by": "Holeby"
+	},
+	{
+		"postnr": "4970",
+		"by": "Rødby"
+	},
+	{
+		"postnr": "4983",
+		"by": "Dannemare"
+	},
+	{
+		"postnr": "4990",
+		"by": "Sakskøbing"
+	},
+	{
+		"postnr": "4992",
+		"by": "Midtsjælland USF P"
+	},
+	{
+		"postnr": "5000",
+		"by": "Odense C"
+	},
+	{
+		"postnr": "5029",
+		"by": "Odense C"
+	},
+	{
+		"postnr": "5100",
+		"by": "Odense C"
+	},
+	{
+		"postnr": "5200",
+		"by": "Odense V"
+	},
+	{
+		"postnr": "5210",
+		"by": "Odense NV"
+	},
+	{
+		"postnr": "5220",
+		"by": "Odense SØ"
+	},
+	{
+		"postnr": "5230",
+		"by": "Odense M"
+	},
+	{
+		"postnr": "5240",
+		"by": "Odense NØ"
+	},
+	{
+		"postnr": "5250",
+		"by": "Odense SV"
+	},
+	{
+		"postnr": "5260",
+		"by": "Odense S"
+	},
+	{
+		"postnr": "5270",
+		"by": "Odense N"
+	},
+	{
+		"postnr": "5290",
+		"by": "Marslev"
+	},
+	{
+		"postnr": "5300",
+		"by": "Kerteminde"
+	},
+	{
+		"postnr": "5320",
+		"by": "Agedrup"
+	},
+	{
+		"postnr": "5330",
+		"by": "Munkebo"
+	},
+	{
+		"postnr": "5350",
+		"by": "Rynkeby"
+	},
+	{
+		"postnr": "5370",
+		"by": "Mesinge"
+	},
+	{
+		"postnr": "5380",
+		"by": "Dalby"
+	},
+	{
+		"postnr": "5390",
+		"by": "Martofte"
+	},
+	{
+		"postnr": "5400",
+		"by": "Bogense"
+	},
+	{
+		"postnr": "5450",
+		"by": "Otterup"
+	},
+	{
+		"postnr": "5462",
+		"by": "Morud"
+	},
+	{
+		"postnr": "5463",
+		"by": "Harndrup"
+	},
+	{
+		"postnr": "5464",
+		"by": "Brenderup Fyn"
+	},
+	{
+		"postnr": "5466",
+		"by": "Asperup"
+	},
+	{
+		"postnr": "5471",
+		"by": "Søndersø"
+	},
+	{
+		"postnr": "5474",
+		"by": "Veflinge"
+	},
+	{
+		"postnr": "5485",
+		"by": "Skamby"
+	},
+	{
+		"postnr": "5491",
+		"by": "Blommenslyst"
+	},
+	{
+		"postnr": "5492",
+		"by": "Vissenbjerg"
+	},
+	{
+		"postnr": "5500",
+		"by": "Middelfart"
+	},
+	{
+		"postnr": "5540",
+		"by": "Ullerslev"
+	},
+	{
+		"postnr": "5550",
+		"by": "Langeskov"
+	},
+	{
+		"postnr": "5560",
+		"by": "Aarup"
+	},
+	{
+		"postnr": "5580",
+		"by": "Nørre Aaby"
+	},
+	{
+		"postnr": "5591",
+		"by": "Gelsted"
+	},
+	{
+		"postnr": "5592",
+		"by": "Ejby"
+	},
+	{
+		"postnr": "5600",
+		"by": "Faaborg"
+	},
+	{
+		"postnr": "5601",
+		"by": "Lyø"
+	},
+	{
+		"postnr": "5602",
+		"by": "Avernakø"
+	},
+	{
+		"postnr": "5603",
+		"by": "Bjørnø"
+	},
+	{
+		"postnr": "5610",
+		"by": "Assens"
+	},
+	{
+		"postnr": "5620",
+		"by": "Glamsbjerg"
+	},
+	{
+		"postnr": "5631",
+		"by": "Ebberup"
+	},
+	{
+		"postnr": "5642",
+		"by": "Millinge"
+	},
+	{
+		"postnr": "5672",
+		"by": "Broby"
+	},
+	{
+		"postnr": "5683",
+		"by": "Haarby"
+	},
+	{
+		"postnr": "5690",
+		"by": "Tommerup"
+	},
+	{
+		"postnr": "5700",
+		"by": "Svendborg"
+	},
+	{
+		"postnr": "5750",
+		"by": "Ringe"
+	},
+	{
+		"postnr": "5762",
+		"by": "Vester Skerninge"
+	},
+	{
+		"postnr": "5771",
+		"by": "Stenstrup"
+	},
+	{
+		"postnr": "5772",
+		"by": "Kværndrup"
+	},
+	{
+		"postnr": "5792",
+		"by": "Årslev"
+	},
+	{
+		"postnr": "5800",
+		"by": "Nyborg"
+	},
+	{
+		"postnr": "5853",
+		"by": "Ørbæk"
+	},
+	{
+		"postnr": "5854",
+		"by": "Gislev"
+	},
+	{
+		"postnr": "5856",
+		"by": "Ryslinge"
+	},
+	{
+		"postnr": "5863",
+		"by": "Ferritslev Fyn"
+	},
+	{
+		"postnr": "5871",
+		"by": "Frørup"
+	},
+	{
+		"postnr": "5874",
+		"by": "Hesselager"
+	},
+	{
+		"postnr": "5881",
+		"by": "Skårup Fyn"
+	},
+	{
+		"postnr": "5882",
+		"by": "Vejstrup"
+	},
+	{
+		"postnr": "5883",
+		"by": "Oure"
+	},
+	{
+		"postnr": "5884",
+		"by": "Gudme"
+	},
+	{
+		"postnr": "5892",
+		"by": "Gudbjerg Sydfyn"
+	},
+	{
+		"postnr": "5900",
+		"by": "Rudkøbing"
+	},
+	{
+		"postnr": "5932",
+		"by": "Humble"
+	},
+	{
+		"postnr": "5935",
+		"by": "Bagenkop"
+	},
+	{
+		"postnr": "5943",
+		"by": "Strynø"
+	},
+	{
+		"postnr": "5953",
+		"by": "Tranekær"
+	},
+	{
+		"postnr": "5960",
+		"by": "Marstal"
+	},
+	{
+		"postnr": "5965",
+		"by": "Birkholm"
+	},
+	{
+		"postnr": "5970",
+		"by": "Ærøskøbing"
+	},
+	{
+		"postnr": "5985",
+		"by": "Søby Ærø"
+	},
+	{
+		"postnr": "6000",
+		"by": "Kolding"
+	},
+	{
+		"postnr": "6040",
+		"by": "Egtved"
+	},
+	{
+		"postnr": "6051",
+		"by": "Almind"
+	},
+	{
+		"postnr": "6052",
+		"by": "Viuf"
+	},
+	{
+		"postnr": "6064",
+		"by": "Jordrup"
+	},
+	{
+		"postnr": "6070",
+		"by": "Christiansfeld"
+	},
+	{
+		"postnr": "6091",
+		"by": "Bjert"
+	},
+	{
+		"postnr": "6092",
+		"by": "Sønder Stenderup"
+	},
+	{
+		"postnr": "6093",
+		"by": "Sjølund"
+	},
+	{
+		"postnr": "6094",
+		"by": "Hejls"
+	},
+	{
+		"postnr": "6100",
+		"by": "Haderslev"
+	},
+	{
+		"postnr": "6200",
+		"by": "Aabenraa"
+	},
+	{
+		"postnr": "6210",
+		"by": "Barsø"
+	},
+	{
+		"postnr": "6230",
+		"by": "Rødekro"
+	},
+	{
+		"postnr": "6240",
+		"by": "Løgumkloster"
+	},
+	{
+		"postnr": "6261",
+		"by": "Bredebro"
+	},
+	{
+		"postnr": "6270",
+		"by": "Tønder"
+	},
+	{
+		"postnr": "6280",
+		"by": "Højer"
+	},
+	{
+		"postnr": "6300",
+		"by": "Gråsten"
+	},
+	{
+		"postnr": "6310",
+		"by": "Broager"
+	},
+	{
+		"postnr": "6320",
+		"by": "Egernsund"
+	},
+	{
+		"postnr": "6330",
+		"by": "Padborg"
+	},
+	{
+		"postnr": "6340",
+		"by": "Kruså"
+	},
+	{
+		"postnr": "6360",
+		"by": "Tinglev"
+	},
+	{
+		"postnr": "6372",
+		"by": "Bylderup-Bov"
+	},
+	{
+		"postnr": "6392",
+		"by": "Bolderslev"
+	},
+	{
+		"postnr": "6400",
+		"by": "Sønderborg"
+	},
+	{
+		"postnr": "6430",
+		"by": "Nordborg"
+	},
+	{
+		"postnr": "6440",
+		"by": "Augustenborg"
+	},
+	{
+		"postnr": "6470",
+		"by": "Sydals"
+	},
+	{
+		"postnr": "6500",
+		"by": "Vojens"
+	},
+	{
+		"postnr": "6510",
+		"by": "Gram"
+	},
+	{
+		"postnr": "6520",
+		"by": "Toftlund"
+	},
+	{
+		"postnr": "6534",
+		"by": "Agerskov"
+	},
+	{
+		"postnr": "6535",
+		"by": "Branderup J"
+	},
+	{
+		"postnr": "6541",
+		"by": "Bevtoft"
+	},
+	{
+		"postnr": "6560",
+		"by": "Sommersted"
+	},
+	{
+		"postnr": "6580",
+		"by": "Vamdrup"
+	},
+	{
+		"postnr": "6600",
+		"by": "Vejen"
+	},
+	{
+		"postnr": "6621",
+		"by": "Gesten"
+	},
+	{
+		"postnr": "6622",
+		"by": "Bække"
+	},
+	{
+		"postnr": "6623",
+		"by": "Vorbasse"
+	},
+	{
+		"postnr": "6630",
+		"by": "Rødding"
+	},
+	{
+		"postnr": "6640",
+		"by": "Lunderskov"
+	},
+	{
+		"postnr": "6650",
+		"by": "Brørup"
+	},
+	{
+		"postnr": "6660",
+		"by": "Lintrup"
+	},
+	{
+		"postnr": "6670",
+		"by": "Holsted"
+	},
+	{
+		"postnr": "6682",
+		"by": "Hovborg"
+	},
+	{
+		"postnr": "6683",
+		"by": "Føvling"
+	},
+	{
+		"postnr": "6690",
+		"by": "Gørding"
+	},
+	{
+		"postnr": "6700",
+		"by": "Esbjerg"
+	},
+	{
+		"postnr": "6701",
+		"by": "Esbjerg"
+	},
+	{
+		"postnr": "6705",
+		"by": "Esbjerg Ø"
+	},
+	{
+		"postnr": "6710",
+		"by": "Esbjerg V"
+	},
+	{
+		"postnr": "6715",
+		"by": "Esbjerg N"
+	},
+	{
+		"postnr": "6720",
+		"by": "Fanø"
+	},
+	{
+		"postnr": "6731",
+		"by": "Tjæreborg"
+	},
+	{
+		"postnr": "6740",
+		"by": "Bramming"
+	},
+	{
+		"postnr": "6752",
+		"by": "Glejbjerg"
+	},
+	{
+		"postnr": "6753",
+		"by": "Agerbæk"
+	},
+	{
+		"postnr": "6760",
+		"by": "Ribe"
+	},
+	{
+		"postnr": "6771",
+		"by": "Gredstedbro"
+	},
+	{
+		"postnr": "6780",
+		"by": "Skærbæk"
+	},
+	{
+		"postnr": "6792",
+		"by": "Rømø"
+	},
+	{
+		"postnr": "6800",
+		"by": "Varde"
+	},
+	{
+		"postnr": "6818",
+		"by": "Årre"
+	},
+	{
+		"postnr": "6823",
+		"by": "Ansager"
+	},
+	{
+		"postnr": "6830",
+		"by": "Nørre Nebel"
+	},
+	{
+		"postnr": "6840",
+		"by": "Oksbøl"
+	},
+	{
+		"postnr": "6851",
+		"by": "Janderup Vestj"
+	},
+	{
+		"postnr": "6852",
+		"by": "Billum"
+	},
+	{
+		"postnr": "6853",
+		"by": "Vejers Strand"
+	},
+	{
+		"postnr": "6854",
+		"by": "Henne"
+	},
+	{
+		"postnr": "6855",
+		"by": "Outrup"
+	},
+	{
+		"postnr": "6857",
+		"by": "Blåvand"
+	},
+	{
+		"postnr": "6862",
+		"by": "Tistrup"
+	},
+	{
+		"postnr": "6870",
+		"by": "Ølgod"
+	},
+	{
+		"postnr": "6880",
+		"by": "Tarm"
+	},
+	{
+		"postnr": "6893",
+		"by": "Hemmet"
+	},
+	{
+		"postnr": "6900",
+		"by": "Skjern"
+	},
+	{
+		"postnr": "6920",
+		"by": "Videbæk"
+	},
+	{
+		"postnr": "6933",
+		"by": "Kibæk"
+	},
+	{
+		"postnr": "6940",
+		"by": "Lem St"
+	},
+	{
+		"postnr": "6950",
+		"by": "Ringkøbing"
+	},
+	{
+		"postnr": "6960",
+		"by": "Hvide Sande"
+	},
+	{
+		"postnr": "6971",
+		"by": "Spjald"
+	},
+	{
+		"postnr": "6973",
+		"by": "Ørnhøj"
+	},
+	{
+		"postnr": "6980",
+		"by": "Tim"
+	},
+	{
+		"postnr": "6990",
+		"by": "Ulfborg"
+	},
+	{
+		"postnr": "7000",
+		"by": "Fredericia"
+	},
+	{
+		"postnr": "7007",
+		"by": "Fredericia"
+	},
+	{
+		"postnr": "7017",
+		"by": "Taulov Pakkecenter"
+	},
+	{
+		"postnr": "7018",
+		"by": "Pakker TLP"
+	},
+	{
+		"postnr": "7029",
+		"by": "Fredericia"
+	},
+	{
+		"postnr": "7080",
+		"by": "Børkop"
+	},
+	{
+		"postnr": "7100",
+		"by": "Vejle"
+	},
+	{
+		"postnr": "7120",
+		"by": "Vejle Øst"
+	},
+	{
+		"postnr": "7130",
+		"by": "Juelsminde"
+	},
+	{
+		"postnr": "7140",
+		"by": "Stouby"
+	},
+	{
+		"postnr": "7150",
+		"by": "Barrit"
+	},
+	{
+		"postnr": "7160",
+		"by": "Tørring"
+	},
+	{
+		"postnr": "7171",
+		"by": "Uldum"
+	},
+	{
+		"postnr": "7173",
+		"by": "Vonge"
+	},
+	{
+		"postnr": "7182",
+		"by": "Bredsten"
+	},
+	{
+		"postnr": "7183",
+		"by": "Randbøl"
+	},
+	{
+		"postnr": "7184",
+		"by": "Vandel"
+	},
+	{
+		"postnr": "7190",
+		"by": "Billund"
+	},
+	{
+		"postnr": "7200",
+		"by": "Grindsted"
+	},
+	{
+		"postnr": "7250",
+		"by": "Hejnsvig"
+	},
+	{
+		"postnr": "7260",
+		"by": "Sønder Omme"
+	},
+	{
+		"postnr": "7270",
+		"by": "Stakroge"
+	},
+	{
+		"postnr": "7280",
+		"by": "Sønder Felding"
+	},
+	{
+		"postnr": "7300",
+		"by": "Jelling"
+	},
+	{
+		"postnr": "7321",
+		"by": "Gadbjerg"
+	},
+	{
+		"postnr": "7323",
+		"by": "Give"
+	},
+	{
+		"postnr": "7330",
+		"by": "Brande"
+	},
+	{
+		"postnr": "7361",
+		"by": "Ejstrupholm"
+	},
+	{
+		"postnr": "7362",
+		"by": "Hampen"
+	},
+	{
+		"postnr": "7400",
+		"by": "Herning"
+	},
+	{
+		"postnr": "7429",
+		"by": "Herning"
+	},
+	{
+		"postnr": "7430",
+		"by": "Ikast"
+	},
+	{
+		"postnr": "7441",
+		"by": "Bording"
+	},
+	{
+		"postnr": "7442",
+		"by": "Engesvang"
+	},
+	{
+		"postnr": "7451",
+		"by": "Sunds"
+	},
+	{
+		"postnr": "7470",
+		"by": "Karup J"
+	},
+	{
+		"postnr": "7480",
+		"by": "Vildbjerg"
+	},
+	{
+		"postnr": "7490",
+		"by": "Aulum"
+	},
+	{
+		"postnr": "7500",
+		"by": "Holstebro"
+	},
+	{
+		"postnr": "7540",
+		"by": "Haderup"
+	},
+	{
+		"postnr": "7550",
+		"by": "Sørvad"
+	},
+	{
+		"postnr": "7560",
+		"by": "Hjerm"
+	},
+	{
+		"postnr": "7570",
+		"by": "Vemb"
+	},
+	{
+		"postnr": "7600",
+		"by": "Struer"
+	},
+	{
+		"postnr": "7620",
+		"by": "Lemvig"
+	},
+	{
+		"postnr": "7650",
+		"by": "Bøvlingbjerg"
+	},
+	{
+		"postnr": "7660",
+		"by": "Bækmarksbro"
+	},
+	{
+		"postnr": "7673",
+		"by": "Harboøre"
+	},
+	{
+		"postnr": "7680",
+		"by": "Thyborøn"
+	},
+	{
+		"postnr": "7700",
+		"by": "Thisted"
+	},
+	{
+		"postnr": "7730",
+		"by": "Hanstholm"
+	},
+	{
+		"postnr": "7741",
+		"by": "Frøstrup"
+	},
+	{
+		"postnr": "7742",
+		"by": "Vesløs"
+	},
+	{
+		"postnr": "7752",
+		"by": "Snedsted"
+	},
+	{
+		"postnr": "7755",
+		"by": "Bedsted Thy"
+	},
+	{
+		"postnr": "7760",
+		"by": "Hurup Thy"
+	},
+	{
+		"postnr": "7770",
+		"by": "Vestervig"
+	},
+	{
+		"postnr": "7790",
+		"by": "Thyholm"
+	},
+	{
+		"postnr": "7800",
+		"by": "Skive"
+	},
+	{
+		"postnr": "7830",
+		"by": "Vinderup"
+	},
+	{
+		"postnr": "7840",
+		"by": "Højslev"
+	},
+	{
+		"postnr": "7850",
+		"by": "Stoholm Jyll"
+	},
+	{
+		"postnr": "7860",
+		"by": "Spøttrup"
+	},
+	{
+		"postnr": "7870",
+		"by": "Roslev"
+	},
+	{
+		"postnr": "7884",
+		"by": "Fur"
+	},
+	{
+		"postnr": "7900",
+		"by": "Nykøbing M"
+	},
+	{
+		"postnr": "7950",
+		"by": "Erslev"
+	},
+	{
+		"postnr": "7960",
+		"by": "Karby"
+	},
+	{
+		"postnr": "7970",
+		"by": "Redsted M"
+	},
+	{
+		"postnr": "7980",
+		"by": "Vils"
+	},
+	{
+		"postnr": "7990",
+		"by": "Øster Assels"
+	},
+	{
+		"postnr": "7992",
+		"by": "Sydjylland/Fyn USF P"
+	},
+	{
+		"postnr": "7993",
+		"by": "Sydjylland/Fyn USF B"
+	},
+	{
+		"postnr": "7996",
+		"by": "Fakturaservice"
+	},
+	{
+		"postnr": "7997",
+		"by": "Fakturascanning"
+	},
+	{
+		"postnr": "7998",
+		"by": "Statsservice"
+	},
+	{
+		"postnr": "7999",
+		"by": "Kommunepost"
+	},
+	{
+		"postnr": "8000",
+		"by": "Aarhus C"
+	},
+	{
+		"postnr": "8100",
+		"by": "Aarhus C"
+	},
+	{
+		"postnr": "8200",
+		"by": "Aarhus N"
+	},
+	{
+		"postnr": "8210",
+		"by": "Aarhus V"
+	},
+	{
+		"postnr": "8220",
+		"by": "Brabrand"
+	},
+	{
+		"postnr": "8229",
+		"by": "Risskov Ø"
+	},
+	{
+		"postnr": "8230",
+		"by": "Åbyhøj"
+	},
+	{
+		"postnr": "8240",
+		"by": "Risskov"
+	},
+	{
+		"postnr": "8245",
+		"by": "Risskov Ø"
+	},
+	{
+		"postnr": "8250",
+		"by": "Egå"
+	},
+	{
+		"postnr": "8260",
+		"by": "Viby J"
+	},
+	{
+		"postnr": "8270",
+		"by": "Højbjerg"
+	},
+	{
+		"postnr": "8300",
+		"by": "Odder"
+	},
+	{
+		"postnr": "8305",
+		"by": "Samsø"
+	},
+	{
+		"postnr": "8310",
+		"by": "Tranbjerg J"
+	},
+	{
+		"postnr": "8320",
+		"by": "Mårslet"
+	},
+	{
+		"postnr": "8330",
+		"by": "Beder"
+	},
+	{
+		"postnr": "8340",
+		"by": "Malling"
+	},
+	{
+		"postnr": "8350",
+		"by": "Hundslund"
+	},
+	{
+		"postnr": "8355",
+		"by": "Solbjerg"
+	},
+	{
+		"postnr": "8361",
+		"by": "Hasselager"
+	},
+	{
+		"postnr": "8362",
+		"by": "Hørning"
+	},
+	{
+		"postnr": "8370",
+		"by": "Hadsten"
+	},
+	{
+		"postnr": "8380",
+		"by": "Trige"
+	},
+	{
+		"postnr": "8381",
+		"by": "Tilst"
+	},
+	{
+		"postnr": "8382",
+		"by": "Hinnerup"
+	},
+	{
+		"postnr": "8400",
+		"by": "Ebeltoft"
+	},
+	{
+		"postnr": "8410",
+		"by": "Rønde"
+	},
+	{
+		"postnr": "8420",
+		"by": "Knebel"
+	},
+	{
+		"postnr": "8444",
+		"by": "Balle"
+	},
+	{
+		"postnr": "8450",
+		"by": "Hammel"
+	},
+	{
+		"postnr": "8462",
+		"by": "Harlev J"
+	},
+	{
+		"postnr": "8464",
+		"by": "Galten"
+	},
+	{
+		"postnr": "8471",
+		"by": "Sabro"
+	},
+	{
+		"postnr": "8472",
+		"by": "Sporup"
+	},
+	{
+		"postnr": "8500",
+		"by": "Grenaa"
+	},
+	{
+		"postnr": "8520",
+		"by": "Lystrup"
+	},
+	{
+		"postnr": "8530",
+		"by": "Hjortshøj"
+	},
+	{
+		"postnr": "8541",
+		"by": "Skødstrup"
+	},
+	{
+		"postnr": "8543",
+		"by": "Hornslet"
+	},
+	{
+		"postnr": "8544",
+		"by": "Mørke"
+	},
+	{
+		"postnr": "8550",
+		"by": "Ryomgård"
+	},
+	{
+		"postnr": "8560",
+		"by": "Kolind"
+	},
+	{
+		"postnr": "8570",
+		"by": "Trustrup"
+	},
+	{
+		"postnr": "8581",
+		"by": "Nimtofte"
+	},
+	{
+		"postnr": "8585",
+		"by": "Glesborg"
+	},
+	{
+		"postnr": "8586",
+		"by": "Ørum Djurs"
+	},
+	{
+		"postnr": "8592",
+		"by": "Anholt"
+	},
+	{
+		"postnr": "8600",
+		"by": "Silkeborg"
+	},
+	{
+		"postnr": "8620",
+		"by": "Kjellerup"
+	},
+	{
+		"postnr": "8632",
+		"by": "Lemming"
+	},
+	{
+		"postnr": "8641",
+		"by": "Sorring"
+	},
+	{
+		"postnr": "8643",
+		"by": "Ans By"
+	},
+	{
+		"postnr": "8653",
+		"by": "Them"
+	},
+	{
+		"postnr": "8654",
+		"by": "Bryrup"
+	},
+	{
+		"postnr": "8660",
+		"by": "Skanderborg"
+	},
+	{
+		"postnr": "8670",
+		"by": "Låsby"
+	},
+	{
+		"postnr": "8680",
+		"by": "Ry"
+	},
+	{
+		"postnr": "8700",
+		"by": "Horsens"
+	},
+	{
+		"postnr": "8721",
+		"by": "Daugård"
+	},
+	{
+		"postnr": "8722",
+		"by": "Hedensted"
+	},
+	{
+		"postnr": "8723",
+		"by": "Løsning"
+	},
+	{
+		"postnr": "8732",
+		"by": "Hovedgård"
+	},
+	{
+		"postnr": "8740",
+		"by": "Brædstrup"
+	},
+	{
+		"postnr": "8751",
+		"by": "Gedved"
+	},
+	{
+		"postnr": "8752",
+		"by": "Østbirk"
+	},
+	{
+		"postnr": "8762",
+		"by": "Flemming"
+	},
+	{
+		"postnr": "8763",
+		"by": "Rask Mølle"
+	},
+	{
+		"postnr": "8765",
+		"by": "Klovborg"
+	},
+	{
+		"postnr": "8766",
+		"by": "Nørre Snede"
+	},
+	{
+		"postnr": "8781",
+		"by": "Stenderup"
+	},
+	{
+		"postnr": "8783",
+		"by": "Hornsyld"
+	},
+	{
+		"postnr": "8789",
+		"by": "Endelave"
+	},
+	{
+		"postnr": "8799",
+		"by": "Tunø"
+	},
+	{
+		"postnr": "8800",
+		"by": "Viborg"
+	},
+	{
+		"postnr": "8830",
+		"by": "Tjele"
+	},
+	{
+		"postnr": "8831",
+		"by": "Løgstrup"
+	},
+	{
+		"postnr": "8832",
+		"by": "Skals"
+	},
+	{
+		"postnr": "8840",
+		"by": "Rødkærsbro"
+	},
+	{
+		"postnr": "8850",
+		"by": "Bjerringbro"
+	},
+	{
+		"postnr": "8860",
+		"by": "Ulstrup"
+	},
+	{
+		"postnr": "8870",
+		"by": "Langå"
+	},
+	{
+		"postnr": "8881",
+		"by": "Thorsø"
+	},
+	{
+		"postnr": "8882",
+		"by": "Fårvang"
+	},
+	{
+		"postnr": "8883",
+		"by": "Gjern"
+	},
+	{
+		"postnr": "8900",
+		"by": "Randers C"
+	},
+	{
+		"postnr": "8920",
+		"by": "Randers NV"
+	},
+	{
+		"postnr": "8930",
+		"by": "Randers NØ"
+	},
+	{
+		"postnr": "8940",
+		"by": "Randers SV"
+	},
+	{
+		"postnr": "8950",
+		"by": "Ørsted"
+	},
+	{
+		"postnr": "8960",
+		"by": "Randers SØ"
+	},
+	{
+		"postnr": "8961",
+		"by": "Allingåbro"
+	},
+	{
+		"postnr": "8963",
+		"by": "Auning"
+	},
+	{
+		"postnr": "8970",
+		"by": "Havndal"
+	},
+	{
+		"postnr": "8981",
+		"by": "Spentrup"
+	},
+	{
+		"postnr": "8983",
+		"by": "Gjerlev J"
+	},
+	{
+		"postnr": "8990",
+		"by": "Fårup"
+	},
+	{
+		"postnr": "9000",
+		"by": "Aalborg"
+	},
+	{
+		"postnr": "9029",
+		"by": "Aalborg"
+	},
+	{
+		"postnr": "9100",
+		"by": "Aalborg"
+	},
+	{
+		"postnr": "9200",
+		"by": "Aalborg SV"
+	},
+	{
+		"postnr": "9210",
+		"by": "Aalborg SØ"
+	},
+	{
+		"postnr": "9220",
+		"by": "Aalborg Øst"
+	},
+	{
+		"postnr": "9230",
+		"by": "Svenstrup J"
+	},
+	{
+		"postnr": "9240",
+		"by": "Nibe"
+	},
+	{
+		"postnr": "9260",
+		"by": "Gistrup"
+	},
+	{
+		"postnr": "9270",
+		"by": "Klarup"
+	},
+	{
+		"postnr": "9280",
+		"by": "Storvorde"
+	},
+	{
+		"postnr": "9293",
+		"by": "Kongerslev"
+	},
+	{
+		"postnr": "9300",
+		"by": "Sæby"
+	},
+	{
+		"postnr": "9310",
+		"by": "Vodskov"
+	},
+	{
+		"postnr": "9320",
+		"by": "Hjallerup"
+	},
+	{
+		"postnr": "9330",
+		"by": "Dronninglund"
+	},
+	{
+		"postnr": "9340",
+		"by": "Asaa"
+	},
+	{
+		"postnr": "9352",
+		"by": "Dybvad"
+	},
+	{
+		"postnr": "9362",
+		"by": "Gandrup"
+	},
+	{
+		"postnr": "9370",
+		"by": "Hals"
+	},
+	{
+		"postnr": "9380",
+		"by": "Vestbjerg"
+	},
+	{
+		"postnr": "9381",
+		"by": "Sulsted"
+	},
+	{
+		"postnr": "9382",
+		"by": "Tylstrup"
+	},
+	{
+		"postnr": "9400",
+		"by": "Nørresundby"
+	},
+	{
+		"postnr": "9430",
+		"by": "Vadum"
+	},
+	{
+		"postnr": "9440",
+		"by": "Aabybro"
+	},
+	{
+		"postnr": "9460",
+		"by": "Brovst"
+	},
+	{
+		"postnr": "9480",
+		"by": "Løkken"
+	},
+	{
+		"postnr": "9490",
+		"by": "Pandrup"
+	},
+	{
+		"postnr": "9492",
+		"by": "Blokhus"
+	},
+	{
+		"postnr": "9493",
+		"by": "Saltum"
+	},
+	{
+		"postnr": "9500",
+		"by": "Hobro"
+	},
+	{
+		"postnr": "9510",
+		"by": "Arden"
+	},
+	{
+		"postnr": "9520",
+		"by": "Skørping"
+	},
+	{
+		"postnr": "9530",
+		"by": "Støvring"
+	},
+	{
+		"postnr": "9541",
+		"by": "Suldrup"
+	},
+	{
+		"postnr": "9550",
+		"by": "Mariager"
+	},
+	{
+		"postnr": "9560",
+		"by": "Hadsund"
+	},
+	{
+		"postnr": "9574",
+		"by": "Bælum"
+	},
+	{
+		"postnr": "9575",
+		"by": "Terndrup"
+	},
+	{
+		"postnr": "9600",
+		"by": "Aars"
+	},
+	{
+		"postnr": "9610",
+		"by": "Nørager"
+	},
+	{
+		"postnr": "9620",
+		"by": "Aalestrup"
+	},
+	{
+		"postnr": "9631",
+		"by": "Gedsted"
+	},
+	{
+		"postnr": "9632",
+		"by": "Møldrup"
+	},
+	{
+		"postnr": "9640",
+		"by": "Farsø"
+	},
+	{
+		"postnr": "9670",
+		"by": "Løgstør"
+	},
+	{
+		"postnr": "9681",
+		"by": "Ranum"
+	},
+	{
+		"postnr": "9690",
+		"by": "Fjerritslev"
+	},
+	{
+		"postnr": "9700",
+		"by": "Brønderslev"
+	},
+	{
+		"postnr": "9740",
+		"by": "Jerslev J"
+	},
+	{
+		"postnr": "9750",
+		"by": "Østervrå"
+	},
+	{
+		"postnr": "9760",
+		"by": "Vrå"
+	},
+	{
+		"postnr": "9800",
+		"by": "Hjørring"
+	},
+	{
+		"postnr": "9830",
+		"by": "Tårs"
+	},
+	{
+		"postnr": "9850",
+		"by": "Hirtshals"
+	},
+	{
+		"postnr": "9870",
+		"by": "Sindal"
+	},
+	{
+		"postnr": "9881",
+		"by": "Bindslev"
+	},
+	{
+		"postnr": "9900",
+		"by": "Frederikshavn"
+	},
+	{
+		"postnr": "9940",
+		"by": "Læsø"
+	},
+	{
+		"postnr": "9970",
+		"by": "Strandby"
+	},
+	{
+		"postnr": "9981",
+		"by": "Jerup"
+	},
+	{
+		"postnr": "9982",
+		"by": "Ålbæk"
+	},
+	{
+		"postnr": "9990",
+		"by": "Skagen"
+	}
+]

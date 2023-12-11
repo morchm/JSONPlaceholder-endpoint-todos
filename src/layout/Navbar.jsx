@@ -39,8 +39,16 @@ const Navbar = () => {
             <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/lovecalc">Love Calculator</NavLink>
             <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/dadjoke">Far Jokes</NavLink>
           </div>
-
         </div>
+
+             {/* ---------- Open Weather ---------- */}
+             <div className="dropdown">
+            <button className="dropbtn text-teal-200 hover:text-white">Open Weather</button>
+            <div className="dropdown-content">
+              <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/weather1">CurrentWeather m/input</NavLink>
+              <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/weather2">CurrentWeather m/input & datalist</NavLink>
+            </div>
+          </div>
 
 
         </div>

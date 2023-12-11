@@ -29,6 +29,8 @@ import Hobby from "./APIer/RapidAPI/Hobby";
 import DadJokes from "./APIer/RapidAPI/DadJokes";
 import Facts from "./APIer/RapidAPI/Facts";
 import LoveCalc from "./APIer/RapidAPI/LoveCalc";
+import Weather1 from "./APIer/OpenWeather/Weather1";
+import Weather2 from "./APIer/OpenWeather/Weather2";
 
 function App() {
   // ROUTER PROVIDER
@@ -61,6 +63,9 @@ function App() {
           <Route path="dadjoke" element={<DadJokes />} />
           <Route path="facts" element={<Facts />} />
           <Route path="lovecalc" element={<LoveCalc />} />
+          {/* OPEN WEATHER */}
+          <Route path="weather1" element={<Weather1 />} />
+          <Route path="weather2" element={<Weather2 />} />
         </Route>
 
         {/* ---------------- ADMIN ---------------- */}

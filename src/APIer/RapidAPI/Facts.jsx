@@ -31,7 +31,12 @@ export default function Facts() {
       {error && <Error />}
 
       <div className="flex flex-col justify-center">
-        {data && data.map(data => <li className="my-2 text-center">{data.fact}</li>)}
+        {data &&
+          data.map(data => (
+            <div className="w-80 rounded overflow-hidden shadow-lg m-2 px-6 py-4 border-2 border-t-indigo-500 self-center" key={data.id}>
+              <p className="my-2 text-center">{data.fact}</p>
+            </div>
+          ))}
         <button
           className="w-64 bg-gray-300 hover:bg-gray-500 rounded mx-2 p-1 my-2 text-center self-center"
           onClick={handleSubmit}>
