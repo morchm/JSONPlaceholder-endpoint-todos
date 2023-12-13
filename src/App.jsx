@@ -31,6 +31,9 @@ import Facts from "./APIer/RapidAPI/Facts";
 import LoveCalc from "./APIer/RapidAPI/LoveCalc";
 import Weather1 from "./APIer/OpenWeather/Weather1";
 import Weather2 from "./APIer/OpenWeather/Weather2";
+import Weather3 from "./APIer/OpenWeather/Weather3";
+import Weather4 from "./APIer/OpenWeather/Weather4";
+import Pollution from "./APIer/OpenWeather/Pollution";
 
 function App() {
   // ROUTER PROVIDER
@@ -66,6 +69,9 @@ function App() {
           {/* OPEN WEATHER */}
           <Route path="weather1" element={<Weather1 />} />
           <Route path="weather2" element={<Weather2 />} />
+          <Route path="weather3" element={<Weather3 />} />
+          <Route path="weather4" element={<Weather4 />} />
+          <Route path="pollution" element={<Pollution />} />
         </Route>
 
         {/* ---------------- ADMIN ---------------- */}

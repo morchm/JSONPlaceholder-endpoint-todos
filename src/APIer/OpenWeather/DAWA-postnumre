@@ -1,0 +1,4 @@
+export async function DAWAPost(){
+    const response = await fetch("https://api.dataforsyningen.dk/postnumre");
+    const Postnumre = await response.json()
+}

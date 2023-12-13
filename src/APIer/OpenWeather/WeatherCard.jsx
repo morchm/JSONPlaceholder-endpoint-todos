@@ -1,4 +1,4 @@
-export default function WeatherCard() {
+export default function WeatherCard({ data }) {
   return (
     <article className=" rounded overflow-hidden shadow-lg m-2 px-6 py-4 border-2 border-t-indigo-500 self-center">
       <h2 className="text-center text-xl">

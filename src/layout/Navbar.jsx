@@ -47,6 +47,9 @@ const Navbar = () => {
             <div className="dropdown-content">
               <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/weather1">CurrentWeather m/input</NavLink>
               <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/weather2">CurrentWeather m/input & datalist</NavLink>
+              <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/weather3">CurrentWeather m/input & dawa-data</NavLink>
+              <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/weather4">CurrentWeather m/input & LeafletMap</NavLink>
+              <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/pollution">Pollution</NavLink>
             </div>
           </div>
 
