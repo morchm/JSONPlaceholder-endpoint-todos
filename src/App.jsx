@@ -34,6 +34,8 @@ import Weather2 from "./APIer/OpenWeather/Weather2";
 import Weather3 from "./APIer/OpenWeather/Weather3";
 import Weather4 from "./APIer/OpenWeather/Weather4";
 import Pollution from "./APIer/OpenWeather/Pollution";
+import Ghibli from "./APIer/Ghibli";
+import SelectedGhibli from "./APIer/SelectedGhibli";
 
 function App() {
   // ROUTER PROVIDER
@@ -72,6 +74,9 @@ function App() {
           <Route path="weather3" element={<Weather3 />} />
           <Route path="weather4" element={<Weather4 />} />
           <Route path="pollution" element={<Pollution />} />
+          {/* ANDRE */}
+          <Route path="ghibli" element={<Ghibli />} />
+          <Route path="selectedghibli/:ghibliId" element={<SelectedGhibli />} />
         </Route>
 
         {/* ---------------- ADMIN ---------------- */}
