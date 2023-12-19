@@ -36,6 +36,9 @@ import Weather4 from "./APIer/OpenWeather/Weather4";
 import Pollution from "./APIer/OpenWeather/Pollution";
 import Ghibli from "./APIer/Ghibli";
 import SelectedGhibli from "./APIer/SelectedGhibli";
+import ShoppingListe from "./APIer/Airtable/ShoppingListe";
+import ShoppinglistEdit from "./APIer/Airtable/ShopplinglistEdit";
+import ShoppinglistCreate from "./APIer/Airtable/ShoppinglistCreate";
 
 function App() {
   // ROUTER PROVIDER
@@ -74,6 +77,10 @@ function App() {
           <Route path="weather3" element={<Weather3 />} />
           <Route path="weather4" element={<Weather4 />} />
           <Route path="pollution" element={<Pollution />} />
+          {/* AIRTABLE */}
+          <Route path="shopping" element={<ShoppingListe />} />
+          <Route path="shoppingedit/:listId" element={<ShoppinglistEdit />} />
+          <Route path="shoppingcreate" element={<ShoppinglistCreate />} />
           {/* ANDRE */}
           <Route path="ghibli" element={<Ghibli />} />
           <Route path="selectedghibli/:ghibliId" element={<SelectedGhibli />} />
