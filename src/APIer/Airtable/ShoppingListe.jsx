@@ -24,7 +24,7 @@ export default function ShoppingListe() {
       "GET",
       null,
       {
-        Authorization:
+        "Authorization":
           "Bearer " +
           "patlUdOuDAjeuDzZO.acdab6d246ef696cdd6f9781c84debf1fe104f20e30baa1a4e991308717bb813",
       }
@@ -33,17 +33,22 @@ export default function ShoppingListe() {
 
 
   const handleDelete = (listId, listItem) => {
+
+    const deletePost = {
+      "deleted": true,
+      "id": listId
+  }
+
     //For at lave en pop up når man klikker slet
     if (
       window.confirm("Er du sikker på at du vil slette: " + listItem  + "?")
     ) {
       makeRequestDelete(
         "https://api.airtable.com/v0/appBBdvOJVd5EOaZu/Need/" + listId,
-        "DELETE",
+        "DELETE", deletePost,
         {
-          Authorization:
-            "Bearer " +
-            " patlUdOuDAjeuDzZO.acdab6d246ef696cdd6f9781c84debf1fe104f20e30baa1a4e991308717bb813",
+          "Authorization":
+          "Bearer patlUdOuDAjeuDzZO.acdab6d246ef696cdd6f9781c84debf1fe104f20e30baa1a4e991308717bb813",
         }
       );
     }
