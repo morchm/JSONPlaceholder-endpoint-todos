@@ -39,6 +39,8 @@ import SelectedGhibli from "./APIer/SelectedGhibli";
 import ShoppingListe from "./APIer/Airtable/ShoppingListe";
 import ShoppinglistEdit from "./APIer/Airtable/ShopplinglistEdit";
 import ShoppinglistCreate from "./APIer/Airtable/ShoppinglistCreate";
+import ToDoListe from "./APIer/Airtable/TodoListe";
+import TodoCreate from "./APIer/Airtable/TodoCreate";
 
 function App() {
   // ROUTER PROVIDER
@@ -81,6 +83,8 @@ function App() {
           <Route path="shopping" element={<ShoppingListe />} />
           <Route path="shoppingedit/:listId" element={<ShoppinglistEdit />} />
           <Route path="shoppingcreate" element={<ShoppinglistCreate />} />
+          <Route path="todo" element={<ToDoListe />} />
+          <Route path="todocreate" element={<TodoCreate />} />
           {/* ANDRE */}
           <Route path="ghibli" element={<Ghibli />} />
           <Route path="selectedghibli/:ghibliId" element={<SelectedGhibli />} />

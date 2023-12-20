@@ -19,7 +19,7 @@ const Navbar = () => {
         <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/contact">Kontakt</NavLink>
         <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/admin">ADMIN</NavLink>
         <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/ghibli">Ghibli</NavLink>
-        <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/shopping">Shoppingliste</NavLink>
+   
         {/* ---------- JSONPlaceholder Links ---------- */}
         <div className="dropdown">
           <button className="dropbtn text-teal-200 hover:text-white">JSONPlaceholder</button>
@@ -56,6 +56,15 @@ const Navbar = () => {
               <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/pollution">Pollution</NavLink>
             </div>
           </div>
+
+               {/* ---------- Airtable Links ---------- */}
+        <div className="dropdown">
+          <button className="dropdownbtn text-teal-200 hover:text-white">Airtable</button>
+          <div className="dropdown-content">
+            <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/shopping">Shoppingliste</NavLink>
+            <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white" to="/todo">Todo</NavLink>
+          </div>
+        </div>
 
 
         </div>

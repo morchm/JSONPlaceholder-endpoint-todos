@@ -32,6 +32,11 @@ img {
   font-weight: bold;
 }
 
+.inProgress {
+  color: yellow;
+  font-weight: bold;
+}
+
 .notDone {
   color: red;
   font-weight: bold;
