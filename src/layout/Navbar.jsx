@@ -19,6 +19,7 @@ const Navbar = () => {
         <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/contact">Kontakt</NavLink>
         <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/admin">ADMIN</NavLink>
         <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/ghibli">Ghibli</NavLink>
+        <NavLink className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" to="/merntodo">MERN-todo</NavLink>
    
         {/* ---------- JSONPlaceholder Links ---------- */}
         <div className="dropdown">

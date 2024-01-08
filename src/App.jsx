@@ -41,6 +41,10 @@ import ShoppinglistEdit from "./APIer/Airtable/ShopplinglistEdit";
 import ShoppinglistCreate from "./APIer/Airtable/ShoppinglistCreate";
 import ToDoListe from "./APIer/Airtable/TodoListe";
 import TodoCreate from "./APIer/Airtable/TodoCreate";
+import MERNTodo from "./APIer/MERN/MERN-todo";
+import MERNCreate from "./APIer/MERN/MERN-Create";
+import MERNEdit from "./APIer/MERN/MERN-Edit";
+import MERNAdmin from "./APIer/MERN/MERN-Admin";
 
 function App() {
   // ROUTER PROVIDER
@@ -85,6 +89,11 @@ function App() {
           <Route path="shoppingcreate" element={<ShoppinglistCreate />} />
           <Route path="todo" element={<ToDoListe />} />
           <Route path="todocreate" element={<TodoCreate />} />
+          {/* MERN */}
+          <Route path="merntodo" element={<MERNTodo />} />
+          <Route path="merncreate" element={<MERNCreate />} />
+          <Route path="mernedit/:todoID" element={<MERNEdit />} />
+          <Route path="mernadmin" element={<MERNAdmin />} />
           {/* ANDRE */}
           <Route path="ghibli" element={<Ghibli />} />
           <Route path="selectedghibli/:ghibliId" element={<SelectedGhibli />} />
