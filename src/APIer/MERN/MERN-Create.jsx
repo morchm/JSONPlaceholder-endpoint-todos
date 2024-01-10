@@ -6,15 +6,15 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 export default function MERNCreate() {
   const navigate = useNavigate()
   const { data, isLoading, error, makeRequest } = useRequestData();
+  const { data:dataCategories, isLoading:isLoadingCategories, error:errorCategories, makeRequest:makeRequestCategories } = useRequestData(); 
 
-  // const [title, setTitle] = useState("");
-  // const [description, setDescription] = useState("");
+  useEffect(()=> {
+    makeRequestCategories("http://localhost:5000/categories")
+  }, [])
 
   useEffect(()=> {
     if(data) navigate("/mernadmin")
   }, [data])
-
-
 
   const handleSubmit = e => {
     // For at forhindre i, at siden genindlæser og fjerner brugerens inputs
@@ -43,9 +43,27 @@ export default function MERNCreate() {
             type="text"
             name="title" //VIGTIGT at name svarer til todo-modellen
             required
-            placeholder="Titel"
+            placeholder="Indtast en titel"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
+        </div>
+
+        <div className="mb-5 flex flex-col">
+          <label>Kategori</label>
+          <select name="category" id="selCategory" defaultValue="DEFAULT" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+            <option value="DEFAULT" disabled>Vælg en kategori</option>
+            {
+              dataCategories && dataCategories.categories.map(c => <option value={c._id}>{c.category}</option>)
+            }
+          </select>
+
+          {/* <input
+            type="text"
+            name="category" //VIGTIGT at name svarer til todo-modellen
+            required
+            placeholder="Indtast en kategori"
+            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          /> */}
         </div>
 
         <div className="mb-5">
@@ -55,7 +73,7 @@ export default function MERNCreate() {
             name="description"
             required
             rows={5}
-            placeholder="Description"
+            placeholder="Indtast en beskrivelse"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
         </div>

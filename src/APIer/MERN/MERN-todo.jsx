@@ -63,6 +63,10 @@ export default function MERNTodo() {
                 <figure className="flex justify-center">
                  {p.image ? <img src={"http://localhost:5000/images/" + p.image}  className="w-9"/> : null}
                 </figure>
+
+                
+                 {p.category ? <p>Kategori: {p.category.category}</p>  : null}
+                
           
                 <p>
                   <span className={p.done ? "done" : "notDone"}>
