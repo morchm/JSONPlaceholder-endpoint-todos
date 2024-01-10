@@ -1,28 +1,22 @@
 import { useState, useEffect } from "react";
 import useRequestData from "../../hooks/useRequestData";
 import Loader from "../../components/Loader";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export default function MERNCreate() {
-  const navigate = useNavigate()
   const { data, isLoading, error, makeRequest } = useRequestData();
 
-  // const [title, setTitle] = useState("");
-  // const [description, setDescription] = useState("");
-
-  useEffect(()=> {
-    if(data) navigate("/mernadmin")
-  }, [data])
-
-
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
+  
 
   const handleSubmit = e => {
     // For at forhindre i, at siden genindlæser og fjerner brugerens inputs
     e.preventDefault(); //VIGTIG!
 
-    const fd = new FormData(e.target) //e.target = den udfyldte formular
+    const nyTodo = { title, description};
 
-    makeRequest("http://localhost:5000/todos", "POST", fd);
+    makeRequest("http://localhost:5000/todos", "POST", nyTodo);
   };
 
 
@@ -41,9 +35,10 @@ export default function MERNCreate() {
           <label>Title</label>
           <input
             type="text"
-            name="title" //VIGTIGT at name svarer til todo-modellen
             required
             placeholder="Titel"
+            onInput={e => setTitle(e.target.value)}
+            value={title}
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
         </div>
@@ -52,31 +47,21 @@ export default function MERNCreate() {
           <label>Description</label>
           <input
             type="text"
-            name="description"
             required
             rows={5}
+            onInput={e => setDescription(e.target.value)}
             placeholder="Description"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
           />
         </div>
 
-        
-        <div className="mb-5">
-          <label>Vælg et billede</label>
-          <input
-            type="file"
-            name="image"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-          />
-        </div>
-
+     
 
         <button
           type="submit"
           className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l m-1 rounded">
           Opret ny todo
         </button>
-
       </form>
     </div>
   );

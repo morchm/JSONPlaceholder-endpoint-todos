@@ -59,9 +59,14 @@ export default function MERNTodo() {
               <div key={p._id} className="w-80 rounded overflow-hidden shadow-lg m-2 px-6 py-4 border-2 border-t-indigo-500">
                 <h4>TODO: {p.title}</h4>
                 <p className="text-sm italic text-gray-400">{p.description}</p>
+
+                <figure className="flex justify-center">
+                 {p.image ? <img src={"http://localhost:5000/images/" + p.image}  className="w-9"/> : null}
+                </figure>
+          
                 <p>
-                  <span className={p.completed ? "done" : "notDone"}>
-                    {p.completed ? "GJORT" : "UGJORT"}
+                  <span className={p.done ? "done" : "notDone"}>
+                    {p.done ? "GJORT" : "UGJORT"}
                   </span>
                 </p>
                     <div className="grid grid-cols-2">  
